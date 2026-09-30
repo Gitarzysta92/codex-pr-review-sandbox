@@ -1,6 +1,16 @@
+<!-- agentic-reviewer
+{
+  "version": 1,
+  "target_branches": [
+    "develop"
+  ],
+  "environment": "python-stdlib"
+}
+-->
+
 # PR review workflow
 
-Workflow identifier: sandbox-pr-review-v2.
+Workflow identifier: sandbox-pr-review-v3.
 
 ## Initial review and changed revisions
 
