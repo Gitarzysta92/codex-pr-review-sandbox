@@ -15,3 +15,8 @@ python3 -m unittest discover -s tests -v
 Reviewer output should identify the reviewed commit, explain actionable findings,
 and distinguish executed test results from code inspection. Keep findings as
 unpublished drafts until a human approves publication.
+
+## Independent PR conversations
+
+Each pull request should start its own review conversation. Follow-up comments
+should return to that PR’s conversation while other reviews remain separate.
