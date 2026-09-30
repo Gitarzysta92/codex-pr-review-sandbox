@@ -10,7 +10,7 @@
 
 # PR review workflow
 
-Workflow identifier: sandbox-pr-review-v3.
+Workflow identifier: sandbox-pr-review-v4.
 
 ## Initial review and changed revisions
 
@@ -49,7 +49,7 @@ controller's acceptance artifact: `{"verdict":"accepted","validation":"4 tests p
 Use the real validation result, never the example by default. Keep detailed evidence
 and the workflow identifier in draft.md; the public acceptance should stay short:
 “Accepted by agentic reviewer at `<SHA>`. No blocking findings. Validation: <brief result>”.
-This comment is the agent's acceptance instead of clicking Approve. It remains an
-unpublished preview until the human authorizes publication in OpenHands. Never
+This comment is the agent's acceptance instead of clicking Approve. The controller may publish acceptance-only output automatically under the service
+policy, without asking for permission. Findings and replies still require approval. Never
 create a Git commit for acceptance. Reassess after new commits; ordinary discussion
 does not repeat or reissue acceptance.
